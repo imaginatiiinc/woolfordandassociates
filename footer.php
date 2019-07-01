@@ -2,7 +2,7 @@
 
                 <footer class="wrapper">
 
-                    <p class=" contacts phone">p: 513-490-0970</p>
+                    <p class=" contacts phone">p:513-368-2848</p>
                     <p class=" contacts email"> e:<a href="mailto:lwoolford@woolfordandassociates.com">lwoolford@woolfordandassociates.com</a> </p>
 
                 </footer> <!-- end wrapper -->
