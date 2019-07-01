@@ -33,8 +33,7 @@
 	           
 	                   <p class="tack-text">Woolford and Associates helps executives and organizations improve performance, culture, and leadership effectiveness through executive coaching and emotional intelligence development. We believe there is a powerful link between executive development, long term profitability and sustainable business growth. We are dedicated to helping executives create a positive ripple effect throughout their organizations. </p>
                      <p class="tack-text">It begins with you!</p>
-	                   <p class="tack-text">Lauris Woolford of Woolford and Associates is pleased to announce her role as a Leadership Development and Training Consultant in association with Empathetics Inc. Empathetics  provides innovative empathy and interpersonal skills training for medical professionals, leveraging new, scientifically proven methods that enhance human relationships and make medical practice more effective and efficient.
-				       </p>
+	                   
 	                   <div class="cf home-preferred-partner" style="width: 40%;margin-top:5.5rem;">
 					     <p style= "width: 50%;float: left;">
 						  <span style="text-align: center;float: left;width: 100%;">Woolford &amp; Associates is <br>
