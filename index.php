@@ -37,7 +37,7 @@
 	                   <div class="cf home-preferred-partner" style="width: 40%;margin-top:5.5rem;">
 					     <p style= "width: 50%;float: left;">
 						  <span style="text-align: center;float: left;width: 100%;">Woolford &amp; Associates is <br>
-					      a Preferred Partner of <br>
+					      a Partner of <br>
 					      Weatherhead Executive <br>
 				         Education</span></p>
 						  <p style="width: 50%;float: right;">
