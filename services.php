@@ -24,7 +24,7 @@
 					<li>360 interview assessment with select participants</li>
 					<li>Shadow coaching, including meetings, presentations, and conference calls</li>
 					<li>Meetings with sponsoring manager/key stakeholders</li>
-					<li>360 assessment for Emotional Intelligence Development</li>
+					<li>360 assessment  or one on one interview, if needed, for Emotional Intelligence Development</li>
 					<li>Sustainability plan at conclusion of engagement</li>
 				</ul>
 			
