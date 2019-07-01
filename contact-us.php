@@ -1,3 +1,6 @@
+
+
+
 <?php $current_page = 'contact-us'; include 'header.php'; ?>
 	<div class="big-picture contact-us" style="height:auto">
 		<img style="width:100% ;margin:0 auto; display:block" src="imgs/contact_bg.jpg">
