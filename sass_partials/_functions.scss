@@ -1,0 +1,235 @@
+//responsive breakpoint function
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (min-width: 1170px) { @content; }
+  }
+  // @else if $point == medium {
+  //   @media (min-width: 790px) and (max-width: 1169px) { @content; }
+  // }
+    @else if $point == tablet {
+    @media (min-width: 550px) and (max-width: 1169px)  { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 549px)  { @content; }
+  }
+  // @else if $point == XL {
+  //   @media (min-width: 1340px)  { @content; }
+  // }
+  // @else if $point == XXL {
+  //   @media (min-width: 1550px)  { @content; }
+  // }
+}
+ //  Usage --
+ //
+ //.wrap {
+ // width: 75%;
+ // @include breakpoint(large) { width: 65%; }
+ // @include breakpoint(medium) { width: 85%; }
+ // @include breakpoint(small) { width: 95%; }
+ //}
+$font-size: 16px;
+ // General font size function that will convert intigers into em values
+ // font-size: em(12);
+ @function em($target, $context: $font_size) {
+   @return ($target / $context) * 1em;
+ }
+
+ @function rem($target, $context: $font_size) {
+   @return ($target / $context) * 1rem;
+ }
+
+
+
+
+
+
+
+$max-width: 940px;
+$column-width:6.38297872340426%;
+$gutter-width:2.12765957446809%;
+$maximum-columns:12;
+@mixin clearfix { // micro clearfix hack
+  zoom: 1;
+  &:before, &:after { content: ""; display: table; }
+  &:after { clear: both; }
+}
+
+@mixin border-box { // border-box mixin
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@function columns($columns, $container-columns: $maximum-columns) {
+  $width: $columns * $column-width + ($columns - 1) * $gutter-width;
+  $container-width: $container-columns * $column-width + ($container-columns - 1) * $gutter-width;
+  @return percentage($width / $container-width);
+}
+
+@function gutter($container-columns: $maximum-columns, $gutter: $gutter-width) {
+  $container-width: $container-columns * $column-width + ($container-columns - 1) * $gutter-width;
+  @return percentage($gutter / $container-width);
+}
+
+// row mixin includes clearfix hack, last-child margin fix and any global row styles ============= /
+@mixin row {
+  
+
+    @include breakpoint(large) { width: 90%;};
+    @include breakpoint(tablet) { width: 95%;};
+    @include breakpoint(small) { width: 90%;};
+  height: 100%;
+  margin: 0 auto;
+  @include clearfix;
+  @include nesting;
+}
+
+// target nested elements with grid styles. use in global styles as well as row mixin ============ /
+@mixin nesting {
+  padding: 0; // remove padding from parent container so floated columns can fill it
+
+  & > div { // target only child elements of the container. add elements other than div as needed
+    float: left;
+    margin-right: gutter();
+    @include border-box;
+  }
+}
+
+// calculate offset amounts for offset columns =================================================== /
+@function offset-columns($columns) {
+  $margin: $columns * $column-width + $columns * $gutter-width;
+  @return $margin;
+}
+
+@mixin offset($from-direction, $columns) {
+  @if $from-direction == left {
+    float: left;
+    margin-left: offset-columns($columns);
+  }
+  @if $from-direction == right {
+    float: right;
+    margin-right: offset-columns($columns);
+  }
+}
+
+// remove margin-right from last element in a row or container so all columns fit ================ /
+@mixin last {
+  margin-right: 0;
+  float: right; // fixes poor alignment with right edge caused by percentage calculations
+}
+
+
+
+
+
+
+ //Absoulute position shorthand Usage--@include abs-pos(10px,5px,10px,20px)
+@mixin abs-pos ($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  position: absolute;
+}
+
+// Box shadow mixin Usage-- @include box-shadow(1px,1px,2px,#fff, inset)
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+
+      -webkit-box-shadow:$top $left $blur $color #{$inset};
+      -moz-box-shadow:$top $left $blur $color #{$inset};
+      box-shadow:$top $left $blur $color #{$inset};
+    }
+
+
+//transition mixin ---@include transition(border-top,0.4s,ease-in-out);
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}    
+//transform mixin
+// generic transform
+@mixin transform($transforms) {
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+// rotate
+@mixin rotate ($x,$y,$z,$deg) {
+  @include transform(rotate3d($x,$y,$z,$deg));
+}
+ 
+// scale
+@mixin scale($x,$y,$z) {
+   @include transform(scale3d($x,$y,$z));
+} 
+// translate
+@mixin translate ($x, $y, $z) {
+   @include transform(translate3d($x, $y, $z));
+}
+// skew
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+    -moz-transform-origin: $origin;
+       -o-transform-origin: $origin;
+      -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+          transform-origin: $origin;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+@mixin keyframe ($animation_name) {
+    @-webkit-keyframes $animation_name {
+        @content;
+    }
+ 
+    @-moz-keyframes $animation_name {
+        @content;
+    }
+ 
+    @-o-keyframes $animation_name {
+        @content;
+    }
+ 
+    @keyframes $animation_name {
+        @content;
+    }
+}
+@mixin animation ($delay, $duration, $animation) {
+    -webkit-animation-delay: $delay;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-name: $animation;
+    -webkit-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+ 
+    -moz-animation-delay: $delay;
+    -moz-animation-duration: $duration;
+    -moz-animation-name: $animation;
+    -moz-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+ 
+    -o-animation-delay: $delay;
+    -o-animation-duration: $duration;
+    -o-animation-name: $animation;
+    -o-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+ 
+    animation-delay: $delay;
+    animation-duration: $duration;
+    animation-name: $animation;
+    animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+}
+@include keyframe (pop) {
+  0%   {@include scale(0,0,0); }
+  60%  {@include scale(1.3,1.3,1) };
+  100% {@include scale(1,1,1) }
+}

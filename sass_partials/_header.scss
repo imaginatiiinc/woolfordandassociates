@@ -1,0 +1,16 @@
+.header-container{
+	background-color: $white;
+	border-bottom: 1px solid $medium-grey;
+	//height: rem($header-height);
+	
+		@include breakpoint(large) { margin-top: rem(40px); };
+		@include breakpoint(tablet) { margin-top: rem(40px); };
+		@include breakpoint(small) { margin-top: rem(20px); };
+}
+#header .logo{
+	
+	margin-top: 1.2em;
+		@include breakpoint(large) { width: 290px;};
+		@include breakpoint(tablet) {text-align: center;float: none; img{width: 200px;} };
+		@include breakpoint(small) { width: 200px;margin-left: auto; margin-right: auto;};
+}

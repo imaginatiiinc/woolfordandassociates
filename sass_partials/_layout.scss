@@ -1,0 +1,95 @@
+body,html{
+	background-color: #f6f7f7;
+}
+
+.container{
+	width: 100%;
+	padding: 1px;
+}
+.wrapper{
+	
+		@include breakpoint(large) { @include row;};
+		@include breakpoint(tablet) { @include row;};
+		@include breakpoint(small) { 
+			width: 95%;
+			margin: 0 auto;
+		};
+}
+.main.wrapper{
+	min-height: 500px;
+}
+.quote{
+	
+		@include breakpoint(large) { width: columns(3); };
+		@include breakpoint(tablet) { width: columns(4); };
+		@include breakpoint(small) { width: columns(4);};
+}
+
+ul.droplet {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.droplet li {
+	padding-left: 1.3em;
+	background-image: url('/imgs/droplet.png');
+	background-repeat: no-repeat;
+	background-position: 0 0.1em;
+	margin-bottom: 1.5em;
+	line-height: 1.5em;
+}
+
+ul.droplet li .title {
+	font-weight: bold;
+}
+
+p.testimonial-name {
+	font-weight: bold;
+	font-style: italic;
+}
+
+form input, form textarea {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding-left: .8em;
+	width: 20em;
+	line-height: 2em;
+	border: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+
+form .comment_box {
+  height: 6em;
+}
+
+form .send_button {
+  float: right;
+  padding: 0;
+  visibility: hidden;
+}
+
+form .send_button img {
+  float: right;
+  padding: 0;
+  margin: 0;
+  visibility: visible;
+}
+
+.form-errors {
+	color: red;
+	clear: both;
+}
+
+.home-preferred-partner {
+	margin-left: auto!important;
+	margin-right: auto!important;
+	width: 200px;
+	display: block;
+	clear: both;
+	float: none!important;
+}

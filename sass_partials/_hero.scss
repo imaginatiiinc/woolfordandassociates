@@ -1,0 +1,61 @@
+.big-picture{
+	width: 100%;
+	margin-top: rem(15px);
+	height: rem(438px);
+	background-image: url(/imgs/bg_photo1.png), url(/imgs/bg_photo2.png) ;
+	background-position: 0 50%, 100% 50%;
+	background-size: 50% 100%, 50% 100%;
+	background-repeat: no-repeat, no-repeat;
+	padding: 1px;
+}
+.big-picture.home{
+	width: 100%;
+	margin-top: rem(15px);
+	height: rem(438px);
+	background-image: url(imgs/home_bg.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+		@include breakpoint(large) { background-size: cover;};
+		@include breakpoint(tablet) { background-size: 1200px auto; };
+		@include breakpoint(small) { background-size: 400px auto; };
+		@media (min-width:1000px) and (max-width:1100px){
+			 background-size: 1100px auto; 
+		}
+		@media (min-width:900px) and (max-width:1000px){
+			 background-size: 1000px auto;
+		}
+		@media (min-width:800px) and (max-width:900px){
+			background-size: 900px auto;
+		}
+		@media (min-width:700px) and (max-width:800px){
+			background-size: 800px auto;
+		}
+}
+
+.big-picture.coaching {
+	background-image: url(/imgs/coaching1.png), url(/imgs/coaching2.png) ;
+	background-size: 35% 100%, 65% 100%;
+}
+
+.big-picture.resources {
+	background-image: url(/imgs/resources1.png), url(/imgs/resources2.png) ;
+	background-size: 65% 100%, 35% 100%;
+}
+
+.big-picture.services {
+	background-image: url(/imgs/services1.png), url(/imgs/services2.png) ;
+}
+
+.big-picture.testimonials {
+	background-image: url(/imgs/testimonials1.png), url(/imgs/testimonials2.png) ;
+	background-size: 65% 100%, 35% 100%;
+}
+
+.big-picture.strategic-partners {
+	background-image: url(/imgs/strategic-partners1.png), url(/imgs/bg_photo2.png) ;
+}
+
+.big-picture.contact-us {
+	background-image: url(/imgs/contact-us1.png), url(/imgs/contact-us2.png) ;
+	background-size: 65% 100%, 35% 100%;
+}

@@ -1,0 +1,50 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);	
+
+
+$font-size-lg: 16px;
+$font-size-md: 14px;
+$font-size-sm: 12px;   
+body,html{
+	font-family: 'Open Sans';
+	font-weight: 300;
+		@include breakpoint(large) { font-size: $font-size-lg; };
+		@include breakpoint(tablet) { font-size: $font-size-md; };
+		@include breakpoint(small) { font-size: $font-size-sm; };
+}
+h1{
+	font-size: rem(32px);
+	width: 100%;
+	text-align: center;
+	color: $teal;
+	font-weight: 300
+}
+h2{
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+hr{
+	width: columns(2);
+	text-align: center;
+	margin-bottom: 4rem;
+}
+p{
+	margin-top: .2em;
+}
+.contacts{
+	text-align: center;
+	font-size: 1.1rem;
+}
+.phone{
+	margin-top: 3rem;
+}
+.quote{
+	color: $white;
+	font-weight: 300;
+	
+		@include breakpoint(large) { font-size: rem(26px);margin-top: 2.5rem; };
+		@include breakpoint(tablet) { font-size: rem(21px);margin-top: 2.5rem; };
+		@include breakpoint(small) { font-size: rem(18px);margin-top: 3.5rem; };
+}
