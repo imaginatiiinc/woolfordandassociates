@@ -14,7 +14,7 @@
 				<p>Executive Coaching focuses on leaders in the C-suite (CEO’s, COO’s, CFO’s, etc.) or their potential successors.
 					These leaders manage a great deal of responsibility in a complex, stressful, ever changing environment.</p>
 				<p>Woolford & Associates utilizes coaching philosophy and processes of Weatherhead School of Management, Case Western Reserve
-					University, along with 15 years of coaching experience.</p>
+					University, along with 20 years of coaching experience.</p>
 				<p><i style="font-style: normal">We believe that adults learn and change their behavior most when they want or need to change. Learning needs to be self-directed, with
 						readiness and motivation to develop personally and professionally coming from the individual, not from external sources.
 						Using the Theory of Intentional Change, developed by Weatherhead faculty member Richard Boyatzis, Ph.D., Woolford & Associates will
