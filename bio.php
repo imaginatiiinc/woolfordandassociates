@@ -1,3 +1,6 @@
+
+
+
 <?php $current_page = 'bio'; include 'header.php'; ?>
 
  <!-- 
