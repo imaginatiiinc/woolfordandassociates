@@ -38,9 +38,7 @@
             
                     <p>“Helen’s knowledge, experience and passion for developing more empathy in our world,  inspires others to have more self and social awareness.” <br> - Lauris Woolford</p>
                     <p><a href="https://www.youtube.com/watch?v=baHrcC8B4WM" target="_blank">The Power of Empathy TedX Talk</a></p>
-                    <p><a href="http://www.washingtonpost.com/national/health-science/teaching-doctors-how-to-engage-more-and-lecture-less/2015/03/09/95a98508-ae30-11e4-9c91-e9d2f9fde644_story.html" target="_blank">Washington Post Article Features Empathetics Training and Dr. Helen Riess</a></p>
-                    <p><a href="http://health.usnews.com/health-news/patient-advice/articles/2015/04/20/why-nice-doctors-are-better-doctors" target="_blank">Why Nice Doctors are Better Doctors</a></p>
-                    <p><a href="http://www.prnewswire.com/news-releases/empathetics-inc-and-paul-ekman-group-announce-strategic-partnership-300089398.html?tc=eml_cleartime" target="_blank">Empathetics, Inc. and Paul Ekman Group Announce Strategic Partnership</a></p>
+                    
                     <h2 style="font-weight:bold;">International Leadership Associates</h2>
                     <p>International Leadership Associates is a Cincinnati-based leadership development and consulting firm, dedicated to working with leaders and teams to inspire commitment and produce extraordinary results. ILA is a recognized authority for its work with The Leadership Challenge, the world-wide leadership development methodology, and its work in business strategy, leading change, and coaching.<br><a target="_blank" href="http://www.i-lead.com">www.i-lead.com</a></p>
                  
