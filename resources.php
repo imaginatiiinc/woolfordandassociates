@@ -49,17 +49,12 @@
                     What brain science is teaching us about leadership</a><br>
                     <a href="https://www.youtube.com/watch?v=kt3hTGpfrSE" target="_blank"><br>
                     Leading@google: Jim Kouzes</a><br>
-                  <a href="https://www.youtube.com/watch?v=baHrcC8B4WM" target="_blank"><br>
-                  Helen Reiss The Power of Empathy<br>
-                  <br>
-                  </a><a href="http://www.washingtonpost.com/national/health-science/teaching-doctors-how-to-engage-more-and-lecture-less/2015/03/09/95a98508-ae30-11e4-9c91-e9d2f9fde644_story.html" target="_blank">Empathetics Training Improves Patient Satisfaction: Teaching Doctors How To Engage More And Lecture Less</a></li>
-				  
-                  <li>
-                    <h2 style="font-weight:bold;">Speaking Engagements </h2>
-                    <a href="/Docs/TriState2015.pdf" target="_blank">Tri-State Conference September, 30th-October, 2 2015 Indianapolis, IN</a><br>
-                    <br>
-                    <a href="/Docs/kcce.pdf" target="_blank">KCCE Conference- April, 28th 2016 at the Kentucky Chamber Headquarters, 464 Chenault Road, Frankfort. </a><br>
-                  </li>
+                    <a href="https://www.youtube.com/watch?v=baHrcC8B4WM" target="_blank"><br>
+                    Helen Reiss The Power of Empathy</a><br>
+                    <a href="http://www.washingtonpost.com/national/health-science/teaching-doctors-how-to-engage-more-and-lecture-less/2015/03/09/95a98508-ae30-11e4-9c91-e9d2f9fde644_story.html" target="_blank"><br>Empathetics Training Improves Patient Satisfaction: Teaching Doctors How To Engage More And Lecture Less</a><br>               
+                    <a href="/Docs/TriState2015.pdf" target="_blank"><br>Tri-State Conference September, 30th-October, 2 2015 Indianapolis, IN</a><br>
+                    <a href="/Docs/kcce.pdf" target="_blank"><br>KCCE Conference- April, 28th 2016 at the Kentucky Chamber Headquarters, 464 Chenault Road, Frankfort. </a><br>
+                    </li>
 				</ul>
 
 
