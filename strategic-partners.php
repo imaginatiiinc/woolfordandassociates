@@ -48,11 +48,11 @@
                     <h2 style="font-weight:bold;">Consortium Research Emotional Intelligence Organization (CREIO) Group</h2>
                   <p>The mission of the EI Consortium is to advance research and practice of emotional and social intelligence in organizations through the generation and exchange of knowledge. The Consortium for Research on Emotional Intelligence in Organizations is currently made up of 12 core members and 86 additional members who are individuals with a strong record of accomplishment as applied researchers in the field. There also are six organizational and corporate members. The Consortium was founded in the spring of 1996 with the support of the Fetzer Institute. Its initial mandate was to study all that is known about emotional intelligence in the workplace.<br><a target="_blank" href="http://www.eiconsortium.org/measures/eci_360.html">http://www.eiconsortium.org/measures/eci_360.html</a></p>
                   <p>“The CREIO Group consortium consist of global thought leaders who are outstanding in the field of leadership development and emotional intelligence. Their generosity of sharing research studies enrich us all. When I engage with this group I am always in awe and passionately inspired.” <br>- Lauris Woolford</p>
-                  <h2 style="font-weight:bold;">The HayGroup<SUP>®</SUP></h2>
+                  <h2 style="font-weight:bold;">Kornferry/Haygroup<SUP>®</SUP></h2>
                     <p>Great organizations need great people to reach their strategic goals. We help organizations across the globe get their people strategy right and achieve their objectives.<br>
                     <p>Over 70 years, we’ve built a unique body of research and data that demonstrates the clear links between how people work and business results. We’ve packaged this insight and our proven methodologies into a range of services, allowing you to resolve specific people challenges consistently, cost-effectively and in line with your people strategy. Some are delivered by our accredited experts; others through our powerful online tools.
-                    <br><a target="_blank" href="http://www.haygroup.com ">www.haygroup.com </a></p>
-                    <p>&ldquo;I trust and really believe in the HayGroup&rsquo;s products and services! Their leaders are dedicated in improving global cultures, organizations, teams, and individuals.&rdquo;<br>
+                    <br><a target="_blank" href="https://www.kornferry.com/haygroup">www.haygroup.com </a></p>
+                    <p>&ldquo;I trust and really believe in the Kornferry/HayGroup&rsquo;s products and services! Their leaders are dedicated in improving global cultures, organizations, teams, and individuals.&rdquo;<br>
 - Lauris Woolford</p>
 
                     
