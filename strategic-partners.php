@@ -49,7 +49,7 @@
                   <h2 style="font-weight:bold;">Kornferry/Haygroup<SUP>®</SUP></h2>
                     <p>Great organizations need great people to reach their strategic goals. We help organizations across the globe get their people strategy right and achieve their objectives.<br>
                     <p>Over 70 years, we’ve built a unique body of research and data that demonstrates the clear links between how people work and business results. We’ve packaged this insight and our proven methodologies into a range of services, allowing you to resolve specific people challenges consistently, cost-effectively and in line with your people strategy. Some are delivered by our accredited experts; others through our powerful online tools.
-                    <br><a target="_blank" href="https://www.kornferry.com/haygroup">www.haygroup.com </a></p>
+                    <br><a target="_blank" href="https://www.kornferry.com/haygroup">www.kornferry.com/haygroup </a></p>
                     <p>&ldquo;I trust and really believe in the Kornferry/HayGroup&rsquo;s products and services! Their leaders are dedicated in improving global cultures, organizations, teams, and individuals.&rdquo;<br>
 - Lauris Woolford</p>
 
