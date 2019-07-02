@@ -28,7 +28,23 @@
 					<li>Sustainability plan at conclusion of engagement</li>
 				</ul>
 			
+			<h2 style="font-weight:bold" class="d-drop">Program Facilitation</h2>
 
+			<ul>
+				<li>Can teach emotional intelligence, influence, or mindfulness programs</li>
+				<li>Customized for your leaders of your organization</li>
+				<li>Half-day or Full-day programs</li>
+				<li>Highly interactive and engaging</li>
+				<li>Sustainability plan at conclusion of program</li>
+			</ul>
+
+			<h2 style="font-weight:bold" class="d-drop">Prior Speaking Engagements</h2>
+
+			<ul>
+				<li>Babson University engagement and how she developed emotional intelligence organization sustainability</li>
+			</ul>
+
+			
 			<h2 style="font-weight:bold" class="d-rop">Emotional Intelligence Consulting</h2>
 			
 				<ul>
