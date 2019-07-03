@@ -11,7 +11,7 @@
 			<div>
 				
 
-              <p><span class="testimonial-name"><span style="font-weight: bold; font-style: normal;">Robert Sulliva, President of Fifth Third Bank, Chicago</span></span></p>
+              <p><span class="testimonial-name"><span style="font-weight: bold; font-style: normal;">Robert Sullivan, President of Fifth Third Bank, Chicago</span></span></p>
               <p>“Lauris leads by example.  Everything she teaches and preaches she has been through herself.  She’s not afraid to take on the toughest challenges which demonstrates her commitment to her work at every level.
               <p>She focuses on outcomes and desired results and puts accountability in place to track the progress.  She has great enthusiasm and passion for her work which is contagious to everyone she works with.”              
               <p class="testimonial-name" style="font-style: normal; font-weight: bold;"><br>
