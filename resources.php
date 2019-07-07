@@ -1,7 +1,7 @@
 <?php $current_page = 'resources'; include 'header.php'; ?>
 
- <div class="big-picture resources" style="height:auto">
-     <img style="width:100% ;margin:0 auto; display:block" src="imgs/resources_bg.jpg">
+ <div class="woolford=resources resources" style="height:auto">
+     <img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-resources.jpg">
                 
             </div> <!-- end big picture -->
 
