@@ -2,8 +2,8 @@
 
 
 <?php $current_page = 'contact-us'; include 'header.php'; ?>
-	<div class="big-picture contact-us" style="height:auto">
-		<img style="width:100% ;margin:0 auto; display:block" src="imgs/contact_bg.jpg">
+	<div class="woolford-contact contact-us" style="height:auto">
+		<img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-contact.jpg">
 	</div> <!-- end big picture -->
 	<div class="main-container home container">
 		<div class="main wrapper ">
