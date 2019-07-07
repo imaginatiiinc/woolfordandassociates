@@ -17,7 +17,7 @@
 			   					   				
 			   					   			</div> <!-- end col-three -->
 
-			   					   			<a href= "http://www.woolfordandassociates.com/bio.php"> <img style="width:100% ;margin:0 auto; display:block" src="imgs/main_bg_image_alt.jpg"> </a>
+			   					   			<a href= "http://www.woolfordandassociates.com/bio.php"> <img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-home.jpg"> </a>
 
 	               
 	           </div> <!-- end big picture -->
