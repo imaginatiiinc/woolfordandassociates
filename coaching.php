@@ -1,6 +1,6 @@
 <?php $current_page = 'coaching'; include 'header.php'; ?>
-	<div class="woolford-coaching coaching" style="height:auto">
-		<img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-coaching.jpg">
+	<div class="woolford-coaching-c coaching" style="height:auto">
+		<img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-coaching-c.jpg">
 	</div> <!-- end big picture -->
 	<div class="main-container home container">
 	  <div class="main wrapper ">
