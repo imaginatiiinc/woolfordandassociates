@@ -1,6 +1,6 @@
 <?php $current_page = 'services'; include 'header.php'; ?>
-	<div class="big-picture services" style="height:auto">
-		<img style="width:100% ;margin:0 auto; display:block" src="imgs/services_bg.jpg">
+	<div class="woolford-services-2 services" style="height:auto">
+		<img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-services-2.jpg">
 
 	</div> <!-- end big picture -->
 	<div class="main-container home container">
