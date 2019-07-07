@@ -1,5 +1,6 @@
 <?php $current_page = 'testimonials'; include 'header.php'; ?>
-	<div class="big-picture testimonials">
+	<div class="woolford-testimonials testimonials" style="height:auto"> 
+    <img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-testimonials.jpg">
 	</div> <!-- end big picture -->
 	<div class="main-container home container">
 		<div class="main wrapper ">
