@@ -1,7 +1,7 @@
 <?php $current_page = 'strategic-partners'; include 'header.php'; ?>
 
- <div class="big-picture strategic-partners" style="height:auto">
-    <img style="width:100% ;margin:0 auto; display:block" src="imgs/strategic_bg.jpg">
+ <div class="woolford-partners strategic-partners" style="height:auto">
+    <img style="width:100% ;margin:0 auto; display:block" src="imgs/woolford-partners.jpg">
 
                 
             </div> <!-- end big picture -->
